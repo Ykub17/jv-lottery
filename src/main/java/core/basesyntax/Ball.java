@@ -5,7 +5,7 @@ public class Ball {
     private int number;
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Ball{color='" + color + "', number=" + number + "}";
     }
 
@@ -15,5 +15,13 @@ public class Ball {
 
     public void setNumber(int number) {
         this.number = number;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public int getNumber() {
+        return number;
     }
 }
